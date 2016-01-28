@@ -13,4 +13,9 @@ libraryDependencies ++= Seq(
   ws
 )
 
+libraryDependencies ++= Seq(
+  "com.cloudinary" % "cloudinary-http44" % "1.2.2"
+)
+
+
 libraryDependencies <+= scalaVersion("org.scala-lang" % "scala-compiler" % _ )
